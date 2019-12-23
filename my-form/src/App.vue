@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <Form></Form>
+    <br />
+    <Model />
   </div>
 </template>
 
 <script>
 import Form from '@/components/Form'
-
+import Model from '@/components/Vmodel'
 export default {
   name: 'app',
   components: {
-    Form
+    Form,
+    Model
   }
 }
 </script>
