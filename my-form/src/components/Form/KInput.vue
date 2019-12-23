@@ -21,7 +21,7 @@ export default {
   methods: {
     onInput(e) {
       // v-model 监听 input
-      this.$emit('input', e.taiget.value)
+      this.$emit('input', e.target.value)
       // 触发校验 -> 父级自己派发 自己监听
       this.$parent.$emit('validate')
     }
